@@ -1,5 +1,6 @@
 "use client"
 
+// @ts-ignore: suppress missing react types in some environments
 import { useState, useCallback } from "react"
 
 export function useCopyToClipboard() {
