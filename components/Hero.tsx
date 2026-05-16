@@ -103,51 +103,26 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Column - Geometric Decoration */}
+          {/* Right Column - Profile Photo */}
           <div
             className="animate-fade-up hidden items-center justify-center lg:flex"
             style={{ animationDelay: "200ms" }}
           >
-            <div className="relative h-[400px] w-[400px]">
-              <svg
-                className="animate-float absolute inset-0 h-full w-full"
-                viewBox="0 0 400 400"
-                fill="none"
-              >
-                {/* Large square outline */}
-                <rect
-                  x="60"
-                  y="60"
-                  width="280"
-                  height="280"
-                  rx="4"
-                  className="animate-slow-rotate origin-center"
-                  stroke="#e5e7eb"
+            <div className="relative aspect-square w-[340px] overflow-hidden rounded-2xl border border-border bg-background-secondary">
+              <div className="flex h-full w-full items-center justify-center">
+                <svg
+                  className="h-24 w-24 text-text-tertiary"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
                   strokeWidth="1"
-                  opacity="0.6"
-                />
-                {/* Circle outline */}
-                <circle
-                  cx="200"
-                  cy="200"
-                  r="120"
-                  stroke="#e5e7eb"
-                  strokeWidth="1"
-                  opacity="0.6"
-                />
-                {/* Small rotated square */}
-                <rect
-                  x="150"
-                  y="150"
-                  width="100"
-                  height="100"
-                  rx="2"
-                  stroke="#e5e7eb"
-                  strokeWidth="1"
-                  opacity="0.5"
-                  transform="rotate(45 200 200)"
-                />
-              </svg>
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </div>
             </div>
           </div>
         </div>

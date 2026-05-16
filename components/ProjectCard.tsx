@@ -1,7 +1,7 @@
 "use client"
 
 import { type Project, isPlaceholder, isLiveUrl } from "@/data/projects"
-import { Github, ExternalLink, FileText, Users, User, ChevronDown, ChevronUp } from "lucide-react"
+import { Github, ExternalLink, FileText, ChevronDown, ChevronUp } from "lucide-react"
 import { useState } from "react"
 
 interface ProjectCardProps {
@@ -82,15 +82,7 @@ export default function ProjectCard({ project, featured = false }: ProjectCardPr
       </div>
 
       {/* Bottom row */}
-      <div className="mt-auto flex items-center justify-between pt-4">
-        <div className="flex items-center gap-1.5 text-xs text-text-secondary">
-          {project.team === "Individual" ? (
-            <User className="h-3.5 w-3.5" />
-          ) : (
-            <Users className="h-3.5 w-3.5" />
-          )}
-          {project.team}
-        </div>
+      <div className="mt-auto flex items-center justify-end pt-4">
 
         <div className="flex items-center gap-2">
           {/* GitHub button */}

@@ -105,6 +105,11 @@ export default function Projects() {
             No projects in this category yet.
           </p>
         )}
+
+        {/* Links note */}
+        <p className="mt-10 text-center text-sm text-text-tertiary">
+          Repository and project documentation can be accessed by clicking the links below each project card.
+        </p>
       </div>
     </section>
   )
