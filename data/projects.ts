@@ -217,7 +217,7 @@ export const projects: Project[] = [
     status: "Completed",
     team: "Individual",
     year: "2025",
-    featured: false,
+    featured: false,   
     description:
       "Normalized relational database covering student biodata, dormitory assignments, and activity tracking with ERD and validated SQL reporting.",
     highlights: [
