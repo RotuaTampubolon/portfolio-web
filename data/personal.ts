@@ -16,6 +16,6 @@ export const personal = {
   stats: [
     { value: "10+", label: "Projects" },
     { value: "5+", label: "Tech Stacks" },
-    { value: "2028(expected)", label: "Graduation" },
+    { value: "2028", note: "expected", label: "Graduation" },
   ],
 };

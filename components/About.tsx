@@ -51,6 +51,11 @@ export default function About() {
                     <div className="text-xl font-semibold text-foreground">
                       {stat.value}
                     </div>
+                    {stat.note && (
+                      <div className="text-[11px] leading-tight text-text-secondary">
+                        {stat.note}
+                      </div>
+                    )}
                     <div className="text-xs text-text-secondary">
                       {stat.label}
                     </div>
