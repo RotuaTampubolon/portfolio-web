@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
-import { personal } from "@/data/personal"
-import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react"
+import Image from "next/image";
+import { personal } from "@/data/personal";
+import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -42,10 +43,11 @@ export default function Hero() {
               className="animate-fade-up mt-6 max-w-[480px] text-base leading-relaxed text-text-secondary"
               style={{ animationDelay: "240ms" }}
             >
-              4th semester student at Institut Teknologi Del with hands-on experience in
-              software development, system analysis, database design, and quality assurance.
-              I build structured, real-world systems with a focus on clean architecture and
-              professional deliverables.
+              4th semester student at Institut Teknologi Del with hands-on
+              experience in software development, system analysis, database
+              design, and quality assurance. I build structured, real-world
+              systems with a focus on clean architecture and professional
+              deliverables.
             </p>
 
             {/* Buttons */}
@@ -109,24 +111,18 @@ export default function Hero() {
             style={{ animationDelay: "200ms" }}
           >
             <div className="relative aspect-square w-[340px] overflow-hidden rounded-2xl border border-border bg-background-secondary">
-              <div className="flex h-full w-full items-center justify-center">
-                <svg
-                  className="h-24 w-24 text-text-tertiary"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                  <circle cx="12" cy="7" r="4" />
-                </svg>
-              </div>
+              <Image
+                src="/images/formal.png"
+                alt={personal.name}
+                fill
+                className="object-cover"
+                sizes="340px"
+                priority
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
