@@ -1,11 +1,11 @@
 export interface ExperienceItem {
-  period: string
-  role: string
-  org: string
-  type: "Organization" | "Education"
-  gpa?: string
-  description: string
-  isLatest: boolean
+  period: string;
+  role: string;
+  org: string;
+  type: "Organization" | "Education";
+  gpa?: string;
+  description: string;
+  isLatest: boolean;
 }
 
 export const experience: ExperienceItem[] = [
@@ -28,4 +28,4 @@ export const experience: ExperienceItem[] = [
       "Coursework spanning Systems Analysis & Design, OOP, Database Systems, Business Process Management, UI/UX Design, and Procedural Programming.",
     isLatest: false,
   },
-]
+];
