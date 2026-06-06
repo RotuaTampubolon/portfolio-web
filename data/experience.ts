@@ -23,7 +23,7 @@ export const experience: ExperienceItem[] = [
     role: "Bachelor of Information Systems",
     org: "Institut Teknologi Del, Sitoluama",
     type: "Education",
-    gpa: "3.45 / 4.00",
+    gpa: "3.48 / 4.00",
     description:
       "Coursework spanning Systems Analysis & Design, OOP, Database Systems, Business Process Management, UI/UX Design, and Procedural Programming.",
     isLatest: false,
