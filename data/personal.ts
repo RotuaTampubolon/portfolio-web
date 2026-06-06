@@ -2,7 +2,7 @@ export const personal = {
   name: "Rotua Immanuela Tampubolon",
   role: "Information Systems Student",
   university: "Institut Teknologi Del, Sitoluama",
-  gpa: "3.45 / 4.00",
+  gpa: "3.48 / 4.00",
   location: "Medan, North Sumatra, Indonesia",
   email: "rotuaimmanuela@gmail.com",
   github: "https://github.com/RotuaTampubolon",
