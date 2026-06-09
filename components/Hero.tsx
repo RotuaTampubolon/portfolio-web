@@ -110,18 +110,11 @@ export default function Hero() {
           >
             <div className="relative aspect-square w-[340px] overflow-hidden rounded-2xl border border-border bg-background-secondary">
               <div className="flex h-full w-full items-center justify-center">
-                <svg
-                  className="h-24 w-24 text-text-tertiary"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                  <circle cx="12" cy="7" r="4" />
-                </svg>
+                <img
+                  src={personal.avatarPath}
+                  alt={personal.name}
+                  className="h-full w-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -130,3 +123,5 @@ export default function Hero() {
     </section>
   )
 }
+
+

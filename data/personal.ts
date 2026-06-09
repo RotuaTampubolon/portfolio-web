@@ -8,7 +8,7 @@ export const personal = {
   github: "https://github.com/RotuaTampubolon",
   linkedin: "https://linkedin.com/in/rotua-immanuela",
   cvPath: "/cv/Rotua-Immanuela-CV.pdf",
-  avatarPath: "/images/Rotua-Immanuela.jpg",
+  avatarPath: "/images/Profile.png",
 
   bio: [
     "I'm a detail-oriented Information Systems student with hands-on experience spanning software development, system analysis, database design, quality assurance, and business process improvement. I'm comfortable working across the full project lifecycle from requirements elicitation and system documentation to implementation, testing, and deployment.",
